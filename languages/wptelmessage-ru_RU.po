@@ -1,0 +1,493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-15 22:28+0300\n"
+"PO-Revision-Date: 2024-05-16 06:49+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_html_e\n"
+"X-Poedit-SearchPath-0: templates\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: includes/WPTelMessageForm.php:27
+msgid "Name"
+msgstr "Имя"
+
+#: includes/WPTelMessageForm.php:28
+msgid "Email"
+msgstr "Email"
+
+#: includes/WPTelMessageForm.php:29
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/WPTelMessageForm.php:30
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/WPTelMessageForm.php:31
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/WPTelMessageForm.php:32
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/WPTelMessageForm.php:33
+msgid "City"
+msgstr "Город"
+
+#: includes/WPTelMessageForm.php:34
+msgid "State"
+msgstr "Штат"
+
+#: includes/WPTelMessageForm.php:35
+msgid "Zip"
+msgstr "Почтовый индекс"
+
+#: includes/WPTelMessageForm.php:36
+msgid "Country"
+msgstr "Страна"
+
+#: includes/WPTelMessageForm.php:37
+msgid "Company"
+msgstr "Компания"
+
+#: includes/WPTelMessageForm.php:38
+msgid "File"
+msgstr "Файл"
+
+#: includes/WPTelMessageForm.php:84 includes/WPTelMessageForm.php:100
+#: includes/WPTelMessageForm.php:127
+msgid "Message from the website:"
+msgstr "Сообщение с сайта:"
+
+#: includes/WPTelMessageForm.php:85 includes/WPTelMessageForm.php:101
+#: includes/WPTelMessageForm.php:128
+msgid "Form:"
+msgstr "Форма:"
+
+#: includes/WPTelMessageWoo.php:52
+msgid "A new item has been added to the cart:"
+msgstr "В корзину добавлен новый товар:"
+
+#: includes/WPTelMessageWoo.php:53 includes/WPTelMessageWoo.php:75
+#: includes/WPTelMessageWoo.php:101 includes/WPTelMessageWoo.php:137
+msgid "Website:"
+msgstr "Сайт:"
+
+#: includes/WPTelMessageWoo.php:54 includes/WPTelMessageWoo.php:76
+#: includes/WPTelMessageWoo.php:107 includes/WPTelMessageWoo.php:142
+msgid "User:"
+msgstr "Пользователь:"
+
+#: includes/WPTelMessageWoo.php:55 includes/WPTelMessageWoo.php:77
+#: includes/WPTelMessageWoo.php:169
+msgid "Product:"
+msgstr "Товар:"
+
+#: includes/WPTelMessageWoo.php:56 includes/WPTelMessageWoo.php:78
+msgid "Price:"
+msgstr "Цена:"
+
+#: includes/WPTelMessageWoo.php:57 includes/WPTelMessageWoo.php:79
+msgid "Quantity:"
+msgstr "Количество:"
+
+#: includes/WPTelMessageWoo.php:74
+msgid "The product has been removed from the cart:"
+msgstr "Товар удален из корзины:"
+
+#: includes/WPTelMessageWoo.php:100
+msgid "New order!"
+msgstr "Новый заказ!"
+
+#: includes/WPTelMessageWoo.php:102
+msgid "From"
+msgstr "Из"
+
+#: includes/WPTelMessageWoo.php:102
+msgid "to"
+msgstr "в"
+
+#: includes/WPTelMessageWoo.php:103 includes/WPTelMessageWoo.php:138
+msgid "Order number:"
+msgstr "Номер заказа:"
+
+#: includes/WPTelMessageWoo.php:104 includes/WPTelMessageWoo.php:139
+msgid "Order amount:"
+msgstr "Сумма заказа:"
+
+#: includes/WPTelMessageWoo.php:105 includes/WPTelMessageWoo.php:140
+msgid "Order status:"
+msgstr "Статус заказа:"
+
+#: includes/WPTelMessageWoo.php:106 includes/WPTelMessageWoo.php:141
+msgid "Payment method:"
+msgstr "Способ оплаты:"
+
+#: includes/WPTelMessageWoo.php:109 includes/WPTelMessageWoo.php:144
+msgid "Customer's email:"
+msgstr "Email пользователя:"
+
+#: includes/WPTelMessageWoo.php:113 includes/WPTelMessageWoo.php:148
+msgid "Customer's phone:"
+msgstr "Телефон пользователя:"
+
+#: includes/WPTelMessageWoo.php:115 includes/WPTelMessageWoo.php:150
+msgid "Order time:"
+msgstr "Время заказа:"
+
+#: includes/WPTelMessageWoo.php:136
+msgid "Order has been successfully completed!"
+msgstr "Заказ успешно выполнен!"
+
+#: includes/WPTelMessageWoo.php:167
+msgid "Low stock of products!"
+msgstr "Товар заканчивается!"
+
+#: includes/WPTelMessageWoo.php:168
+msgid "On the website:"
+msgstr "На сайте:"
+
+#: includes/WPTelMessageWoo.php:170
+msgid "In stock:"
+msgstr "В наличии:"
+
+#: includes/WPTelMessageWoo.php:171
+msgid "Link to the product:"
+msgstr "Ссылка на товар:"
+
+#: includes/WpTelMessageSetting.php:40
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: includes/WpTelMessageSetting.php:41
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: includes/WpTelMessageSetting.php:42
+msgid "WPForms"
+msgstr "WPForms"
+
+#: includes/WpTelMessageSetting.php:43
+msgid "NinjaForms"
+msgstr "NinjaForms"
+
+#: includes/WpTelMessageSetting.php:44
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/WpTelMessageSetting.php:72
+msgid "Group ID"
+msgstr "Номер Группы"
+
+#: includes/WpTelMessageSetting.php:73
+msgid "Bot Token"
+msgstr "Токен Бота"
+
+#: includes/WpTelMessageSetting.php:74
+msgid "Receive messages from Contact Form 7"
+msgstr "Получать сообщения с Contact Form 7"
+
+#: includes/WpTelMessageSetting.php:75
+msgid "Receive messages from WPForms"
+msgstr "Получать сообщения с WPForms"
+
+#: includes/WpTelMessageSetting.php:76
+msgid "Receive messages from NinjaForms"
+msgstr "Получать сообщения с NinjaForms"
+
+#: includes/WpTelMessageSetting.php:77
+msgid "Receive messages from WooCommerce"
+msgstr "Получать сообщения с WooCommerce"
+
+#: includes/WpTelMessageSetting.php:78
+msgid "Receive messages for an event"
+msgstr "Получать сообщения о событии"
+
+#: includes/WpTelMessageSetting.php:133
+msgid "Activate Contact Form 7"
+msgstr "Активировать Contact Form 7"
+
+#: includes/WpTelMessageSetting.php:137
+msgid "Contact Form 7 plugin is not activated"
+msgstr "Плагин Contact Form 7 не активен"
+
+#: includes/WpTelMessageSetting.php:151
+msgid "Activate WPForms"
+msgstr "Активировать WPForms"
+
+#: includes/WpTelMessageSetting.php:155
+msgid "WPForms plugin is not activated"
+msgstr "Плагин WPForms не активен"
+
+#: includes/WpTelMessageSetting.php:169
+msgid "Activate NinjaForms"
+msgstr "Активировать NinjaForms"
+
+#: includes/WpTelMessageSetting.php:173
+msgid "Ninja Forms plugin is not activated"
+msgstr "Плагин NinjaForms не активен"
+
+#: includes/WpTelMessageSetting.php:191
+msgid "WooCommerce plugin is not activated"
+msgstr "Плагин WooCommerce не активен"
+
+#: includes/WpTelMessageSetting.php:197
+msgid "Activate WooCommerce"
+msgstr "Активировать WooCommerce"
+
+#: includes/WpTelMessageSetting.php:201
+msgid "Adding an item to your cart"
+msgstr "Добавление товара в корзину"
+
+#: includes/WpTelMessageSetting.php:205
+msgid "Removing an item from the cart"
+msgstr "Удаление товара из корзины"
+
+#: includes/WpTelMessageSetting.php:209
+msgid "Changing product status"
+msgstr "Изменение статуса товара"
+
+#: includes/WpTelMessageSetting.php:213
+msgid "Completing your purchase"
+msgstr "Завершение покупки"
+
+#: includes/WpTelMessageSetting.php:217
+msgid "Low stock of goods"
+msgstr "Низкий запас товара"
+
+#: includes/WpTelMessageSetting.php:221
+msgid "Basic settings WPTelMessage"
+msgstr "Основные настройки WPTelMessage"
+
+#: includes/WpTelMessageSetting.php:226
+msgid "You do not have access to view this page."
+msgstr "У вас нет доступа для просмотра этой страницы."
+
+#: templates/wptm-admin-page.php:3
+msgid "Plugin WPTelMessage"
+msgstr "Плагин WPTelMessage"
+
+#: templates/wptm-admin-page.php:4
+msgid ""
+"With the WPTelMessage plugin, you can receive messages from website contact "
+"forms and order notifications from Woocommerce in Telegram."
+msgstr ""
+"С помощью плагина WPTelMessage вы можете получать сообщения с форм обратной "
+"связи сайта и уведомления о заказах с Woocommerce в Telegram."
+
+#: templates/wptm-admin-page.php:9
+msgid "Instructions for setting up the WPTelMessage plugin"
+msgstr "Инструкция по настройке плагина WPTelMessage"
+
+#: templates/wptm-admin-page.php:11
+msgid ""
+"To receive messages from the website on Telegram, you need to perform a few "
+"simple steps to configure the plugin."
+msgstr ""
+"Чтобы получать сообщения с сайта в Telegram нужно выполнить несколько "
+"простых шагов по настройке плагина."
+
+#: templates/wptm-admin-page.php:13
+msgid ""
+"Create a group on Telegram and find out its number, for example, using the "
+msgstr "Создайте группу в Telegram и узнайте ее номер, например с помощью "
+
+#: templates/wptm-admin-page.php:13
+msgid " MyChatInfoBot."
+msgstr " MyChatInfoBot."
+
+#: templates/wptm-admin-page.php:14
+msgid "Create a Telegram bot using "
+msgstr "Создайте Telegram бота с помощью "
+
+#: templates/wptm-admin-page.php:14
+msgid "and obtain its token."
+msgstr "и получите его токен."
+
+#: templates/wptm-admin-page.php:15
+msgid "Make your Telegram bot a member of the created group."
+msgstr "Сделайте своего Telegram бота участником созданной группы."
+
+#: templates/wptm-admin-page.php:16
+msgid ""
+"Enter the number of your group in the Group ID field, and your bot's token "
+"in the Bot Token field."
+msgstr ""
+"Введите номер вашей группы в поле Group ID и токен вашего бота в поле Bot "
+"Token."
+
+#: templates/wptm-admin-page.php:17
+msgid ""
+"Activate the form from which you want to receive messages in Telegram, as "
+"well as the necessary options."
+msgstr ""
+"Активируйте форму обратной связи, с которой вы хотите получать сообщения в "
+"Telegram, а также необходимые опции."
+
+#: templates/wptm-admin-page.php:18
+msgid "Save the changes using the \"Save Changes\" button."
+msgstr "Сохраните изменения с помощью кнопки «Сохранить изменения»."
+
+#: templates/wptm-admin-page.php:20
+msgid "The plugin is ready to use!"
+msgstr "Плагин готов к использованию!"
+
+#: templates/wptm-admin-page.php:28
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: templates/wptm-admin-page.php:38
+msgid ""
+"You can find a detailed description of the plugin and its settings on our "
+"website."
+msgstr ""
+"Подробное описание плагина и его настройки вы можете найти на нашем сайте."
+
+#: templates/wptm-admin-page.php:40
+msgid "Go to the website"
+msgstr "Перейти на сайт"
+
+#: templates/wptm-admin-page.php:44
+msgid "Additional Instructions"
+msgstr "Дополнительная инструкция"
+
+#: templates/wptm-admin-page.php:45
+msgid "Detailed instructions on how to create a bot and a group in Telegram."
+msgstr "Подробная инструкция, как создать бота и группу в Telegram."
+
+#: templates/wptm-admin-page.php:49
+msgid "How to create a Telegram bot"
+msgstr "Как создать Telegram Бота"
+
+#: templates/wptm-admin-page.php:54
+msgid "How to create a group in Telegram and get its ID"
+msgstr "Как создать группу в Telegram и получить ее ID"
+
+#: templates/wptm-admin-page.php:60
+msgid "Brief description of plugin functions"
+msgstr "Краткое описание функций плагина"
+
+#: templates/wptm-admin-page.php:62
+msgid ""
+"The plugin supports tags in the format: [your-name], [your-email], [your-"
+"message]"
+msgstr ""
+"Плагин поддерживает теги в формате: [your-name], [your-email], [your-"
+"message]"
+
+#: templates/wptm-admin-page.php:63
+msgid ""
+"These tags support text translation and will be displayed as: Name, Email, "
+"Message."
+msgstr ""
+"Эти теги поддерживают перевод текста и будут отображаться как Имя, Email, "
+"Сообщение."
+
+#: templates/wptm-admin-page.php:64
+msgid ""
+"If you use custom tags, they will be shown in the message as is. More "
+"detailed information on using tags can be found "
+msgstr ""
+"Если вы используете пользовательские теги, они будут показаны в сообщении "
+"как есть. Более подробную информацию об использовании тегов можно найти "
+
+#: templates/wptm-admin-page.php:64
+msgid "here."
+msgstr "здесь."
+
+#: templates/wptm-admin-page.php:66
+msgid "The plugin sends messages for the following events:"
+msgstr "Плагин отправляет сообщения о следующих событиях:"
+
+#: templates/wptm-admin-page.php:67
+msgid ""
+"\"Addition of a product to the cart\", \"Removal of a product from the cart"
+"\", \"Change in the status of a product\", \"Order completion\", \"Low "
+"inventory of a product\"."
+msgstr ""
+"«Добавление товара в корзину», «Удаление товара из корзины», «Изменение "
+"статуса товара», «Завершение заказа», «Низкий запас товара»."
+
+#: templates/wptm-admin-page.php:68
+msgid "Each of these events sends specific data to Telegram."
+msgstr "Каждое из этих событий отправляет в Telegram определенные данные."
+
+#: templates/wptm-admin-page.php:69
+msgid "Adding and removing a product from the cart:"
+msgstr "Добавление и удаление товара из корзины:"
+
+#: templates/wptm-admin-page.php:71 templates/wptm-admin-page.php:79
+#: templates/wptm-admin-page.php:91
+msgid "Information about the site from which the message came"
+msgstr "Информация о сайте, с которого пришло сообщение"
+
+#: templates/wptm-admin-page.php:72 templates/wptm-admin-page.php:84
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: templates/wptm-admin-page.php:73 templates/wptm-admin-page.php:92
+msgid "Product name"
+msgstr "Название товара"
+
+#: templates/wptm-admin-page.php:74
+msgid "Product price"
+msgstr "Цена товара"
+
+#: templates/wptm-admin-page.php:75
+msgid "Product quantity"
+msgstr "Количество товара"
+
+#: templates/wptm-admin-page.php:77
+msgid "Changing order status and its completion:"
+msgstr "Изменение статуса заказа и его завершение:"
+
+#: templates/wptm-admin-page.php:80
+msgid "Order number"
+msgstr "Номер заказа"
+
+#: templates/wptm-admin-page.php:81
+msgid "Order cost"
+msgstr "Стоимость заказа"
+
+#: templates/wptm-admin-page.php:82
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: templates/wptm-admin-page.php:83
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+#: templates/wptm-admin-page.php:85
+msgid "Email address of the user"
+msgstr "Email  пользователя"
+
+#: templates/wptm-admin-page.php:86
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: templates/wptm-admin-page.php:87
+msgid "Order time"
+msgstr "Время заказа"
+
+#: templates/wptm-admin-page.php:88
+msgid "Low inventory information:"
+msgstr "Информация о низком запасе:"
+
+#: templates/wptm-admin-page.php:93
+msgid "Product availability"
+msgstr "Остаток товара"
+
+#: templates/wptm-admin-page.php:94
+msgid "Link to the product page"
+msgstr "Ссылка на страницу продукта"

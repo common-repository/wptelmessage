@@ -1,0 +1,148 @@
+/* Variables */
+:root {
+    --main-bg: #fff;
+    --title-color: #999;
+    --section-color-one: #fff;
+    --section-color-two: #5872b5;
+    --outline: #e9e9e9;
+}
+
+/* Wrap */
+.hrcwtm-wrap {
+    width: 95%;
+}
+
+/* Plugin header */
+.hrcwtm-wrap .hrcwtm-header {
+    background-color: var(--main-bg);
+    margin-top: 20px;
+    padding: 20px;
+    outline: 1px solid var(--outline);
+}
+
+/* Plugin title */
+.hrcwtm-header .hrcwtm-header__title {
+    font-size: 36px;
+    color: var(--title-color);
+}
+
+/* Main block of the plugin */
+.hrcwtm-wrap .hrcwtm-main-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Plugin section */
+.hrcwtm-wrap .hrcwtm-section {
+    background-color: var(--main-bg);
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    outline: 1px solid var(--outline);
+}
+
+/* Left section */
+.hrcwtm-wrap .hrcwtm-left-block {
+    width: 70%;
+}
+
+/* Section title */
+.hrcwtm-left-block .hrcwtm-section .hrcwtm-section__title {
+    font-size: 24px;
+    line-height: 1.2em;
+    color: var(--title-color);
+}
+
+/* Section Description */
+.hrcwtm-left-block .hrcwtm-section .hrcwtm-section__description {
+    margin-bottom: 30px;
+    line-height: 1.3;
+    font-size: 16px;
+}
+
+.hrcwtm-left-block .hrcwtm-section .hrcwtm-section__description p {
+    font-size: inherit;
+}
+
+/* Option header */
+.hrcwtm-section .hrcwtm-options__title {
+    background-color: var(--section-color-two);
+    background-image: linear-gradient(135deg,#638fba,#46569e);
+    color: var(--section-color-one);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Settings fields */
+.hrcwtm-section .hrcwtm-input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Section activation checkbox */
+.hrcwtm-wrap .hrcwtm-section input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--section-color-one);
+    border: 2px solid var(--section-color-two);
+}
+
+.hrcwtm-wrap .hrcwtm-section input[type="checkbox"]::before {
+    content: none;
+}
+
+.hrcwtm-wrap .hrcwtm-section input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7px;
+    height: 7px;
+    background-color: var(--section-color-two);
+    border-radius: 50%;
+}
+
+/* Table section */ 
+table.form-table+input+input+p.submit, table.form-table+input+p.submit, table.form-table+p.submit {
+    border-top: solid 3px var(--section-color-two);
+    padding-top: 20px;
+}
+
+/* Button */
+.hrcwtm-wrap .hrcwtm-section .button {
+    font-size: 1.3em;
+    font-weight: 600;
+    background-color: var(--section-color-two);
+    background-image: linear-gradient(135deg,#638fba,#46569e);
+    color: var(--section-color-one);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Right section */
+.hrcwtm-wrap .hrcwtm-right-block {
+    width: 28%;
+}
+
+/* Right section logo */
+.hrcwtm-right-block .hrcwtm-section .hrcwtm-logo {
+    width: 720px;
+    max-width: 100%;
+}
+
+/* Right section header */
+.hrcwtm-right-block .hrcwtm-section .hrcwtm-section__title {
+    font-size: 18px;
+    color: var(--title-color);
+}
